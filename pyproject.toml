@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flaskproject1"
+version = "0.1.0"
+description = ""
+authors = ["Rathanon <rathanon.sin@student.mahidol.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^2.2.2"
+flask-sqlalchemy = "^3.0.2"
+flask-marshmallow = "^0.14.0"
+marshmallow-sqlalchemy = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
